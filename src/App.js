@@ -22,7 +22,7 @@ class App extends Component{
                     this.state.displayBio ? (
                         <div>
                             <p>I live in El Paso, Texas</p>
-                            <p>I made this website with React.js and deployed it using Amazon Web Services</p>
+                            <p>I made this website with React.js and deployed it using AWS CodePipeline and S3 services.</p>
                             <p>Besides coding, I love gaming and hiking.</p>
                             <button onClick={this.toggleDisplayBio}>Show less</button>
                         </div>
